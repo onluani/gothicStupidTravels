@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gothic Travels</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image" href="images/logoGothic.png">
+    <script src="https://kit.fontawesome.com/b50db36cf2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/betterWhiter.png" alt="logo" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-x" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>La Agencia De Turismo</p>
+                <h1><span>Gothic Travels</span><br>De Bilbao</h1>
+            </div>
+        </div>
+    </div>
+<!-- About me -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/people.jpg" alt="user">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Us</h1>
+                    <p>En Gothic Travels ofrecemos recorridos culturales a pie por algunos de los edificios más emblemáticos de Bilbao relacionados con el arte gótico. Nuestro objetivo es acercar la historia, la arquitectura y el patrimonio artístico de la ciudad a todos los visitantes de una manera clara, interesante y accesible.<br>A través de una ruta de aproximadamente 35 minutos, exploraremos iglesias, portales históricos y elementos arquitectónicos que muestran la influencia del estilo gótico, uno de los movimientos artísticos más importantes de la Edad Media.</p>
+                    
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Travel</span><br>helado muy bueno</li>
+                            <li><span>Bla bla travel</span><br>que rico</li>
+                            <li><span>blax3 travel</span><br>travel/guided</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2021 - Current</span><br>Historian</li>
+                            <li><span>2019 - 2021</span><br>Professional</li>
+                            <li><span>2017 - 2019</span><br>Traveling Guide</li>
+                        </ul>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<!-----------portfolio-------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">Services</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/office.jpg">
+                <div class="layer">
+                    <h3>Nuestras Oficinas</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/rutas.jpg">
+                <div class="layer">
+                    <h3>Rutas</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/abonos.jpg">
+                <div class="layer">
+                    <h3>Abonos</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">Ver mas</a>
+    </div>
+</div>
+
+<!-----------portfolio-------->
+<div class="work-list">
+    <div class="work">
+        <img src="images/catedral1.png">
+        <div class="layer">
+            <h3>Catedral De Santiago</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.</p>
+            <a href="https://es.wikipedia.org/wiki/Catedral_de_Santiago_(Bilbao)" target="_blank"><i class="fa-solid fa-link"></i></a>
+        </div>
+    </div>
+
+    <div class="work">
+        <img src="images/catedral2.png">
+        <div class="layer">
+            <h3>Iglesia de San Antón</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.</p>
+            <a href="https://es.wikipedia.org/wiki/Iglesia_de_San_Antón_(Bilbao)" target="_blank"><i class="fa-solid fa-link"></i></a>
+        </div>
+    </div>
+
+    <div class="work">
+        <img src="images/catedral3.png">
+        <div class="layer">
+            <h3>Puerta del Ángel</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.</p>
+            <a href="https://es.wikipedia.org/wiki/Archivo:Bilbao_-_Catedral_de_Santiago_01.JPG" target="_blank"><i class="fa-solid fa-link"></i></a>
+        </div>
+    </div>
+
+    <div class="work">
+        <img src="images/catedral4.png">
+        <div class="layer">
+            <h3>San Vicente de Abando</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.</p>
+            <a href="https://es.wikipedia.org/wiki/Iglesia_de_San_Vicente_de_Abando" target="_blank"><i class="fa-solid fa-link"></i></a>
+        </div>
+    </div>
+</div>
+<!-----------contact-->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contacto</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> contact@me.com</p>
+                <p><i class="fa-solid fa-phone"></i> 6363189247</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/groups/862069547928144"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com/CatsIX"><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="https://www.instagram.com/catsdoingthings/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/cats-breed-45a270300/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Gothic Travels. Made with <i class="fa-solid fa-heart"></i> by Gothic Travels</p>
+    </div>
+</div>
+
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyNdu0GejmejmxRzPpreSMLGulFGOYGoJIo9XHuBOM78GSw1bPQ6LjMI6SdwrFso75a/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+    
+</body>
+</html>
